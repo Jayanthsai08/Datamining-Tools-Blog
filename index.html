@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./commonStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aa7454d09f.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+
+        <ul class="nav" id="nav">
+            <ul class="navLogo">
+                <a href="./index.html">
+                    <img src="./img/logo-white.png" alt="">
+                </a>
+            </ul>
+            <li class="nav-link"><a href="./index.html">Home</a></li>
+            <li class="nav-link"><a href="./aboutus.html">About Us</a></li>
+            <li class="nav-link"><a href="./contact.html">Contact</a></li>
+            <li class="sociallinkContainer">
+                <img class="sociallink" src="./img/fabook-icon-white.svg" alt="">
+                <img class="sociallink" src="./img/twitter-icon-white.svg" alt="">
+                <img class="sociallink" src="./img/inkedin-icon-white.svg" alt="">
+                <img class="sociallink" src="./img/whatsapp-icon-white.svg" alt="">
+            </li>
+        </ul>
+        <div id="barContainer">
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero page -->
+    <section class="hero gridSection">
+        <div class="sectionDesc">
+            <h1 class="headline">
+                Most popular Data Mining and Data Warehousing <span class="cryptoText">TOOLS</span>.
+            </h1>
+            <p class="sub-headline">
+                In today’s world, data is becoming ever more crucial, with digital footprints offering valuable insights. Yet, uncovering useful patterns from extensive data can be difficult. Data mining tools are designed to sift through large amounts of information
+                to find key insights. To get the most out of these tools, selecting the right one for your specific needs is essential. This blog highlights data mining tools and their features to support both individuals and organizations.<br><br>EXPLORE
+                the professional tools in market: </p>
+            <div class="btnContainer">
+                <button class="btn btn1">EXPLORE Now</button>
+            </div>
+        </div>
+        <div class="sectionPic bouncepic" id="sectionPic">
+            <img src="./img/hero-image.png" alt="">
+        </div>
+    </section>
+
+    <!-- Carousel -->
+    <section>
+        <div class="carouselContainer">
+            <div class="eachCarousel eachCarouselBorder">
+
+                <img src="img/knime.png" alt="Description" class="image-style">
+                <article class="carouselDesc">
+                    <h1 class="carouselTitle">KNIME</h1>
+                    <p class="carouselPara">Open and free. Coding optional. Always extensible.</p>
+
+                    <button class="btn carouselBtn"><a href="https://www.knime.com/data-mining-software">EXPLORE</a></button>
+                </article>
+            </div>
+
+            <div class="eachCarousel">
+                <img src="img/rapidminer.png" alt="Description" class="image-style">
+                <article class="carouselDesc">
+                    <h1 class="carouselTitle">ALTAIR RAPIDMINER</h1>
+                    <p class="carouselPara">Data Analytics and AI Platform</p>
+                    <br><br>
+                    <button class="btn carouselBtn"><a href="https://altair.com/altair-rapidminer">EXPLORE</a></button>
+                </article>
+            </div>
+
+            <div class="eachCarousel">
+                <img src="img/weka.png" alt="Description" class="image-style">
+                <article class="carouselDesc">
+                    <h1 class="carouselTitle">WEKA</h1>
+                    <p class="carouselPara">Data Platform delivers uncompromising speed, scale, and sustainability</p>
+
+                    <button class="btn carouselBtn" onclick=""><a href="https://www.weka.io/">EXPLORE</a></button>
+                </article>
+            </div>
+
+            <div class="eachCarousel">
+                <img src="img/orange.png" alt="Description" class="image-style">
+                <article class="carouselDesc">
+                    <h1 class="carouselTitle">ORANGE</h1>
+                    <p class="carouselPara">Open source machine learning and data visualization.</p>
+
+                    <button class="btn carouselBtn" onclick=""><a href="https://orangedatamining.com/">EXPLORE</a></button>
+                </article>
+            </div>
+            <div class="eachCarousel">
+                <img src="img\spark.png" alt="Description" class="image-style">
+                <article class="carouselDesc">
+                    <h1 class="carouselTitle">Apache Spark</h1>
+                    <p class="carouselPara">Open source Data Mining Tool.</p>
+
+                    <button class="btn carouselBtn" onclick=""><a href="https://spark.apache.org/">EXPLORE</a></button>
+                </article>
+            </div>
+            <div class="eachCarousel">
+                <img src="img/PostgreSQL-Logo.wine.png" alt="Description" class="image-style">
+                <article class="carouselDesc">
+                    <h1 class="carouselTitle">PostgreSQL</h1>
+
+
+                    <p class="carouselPara">Open source Data Mining Tool.</p>
+
+                    <button class="btn carouselBtn" onclick=""><a href="//www.postgresql.org/">EXPLORE</a></button>
+                </article>
+            </div>
+            <div class="eachCarousel">
+                <img src="img\redshift.png" alt="Description" class="image-style">
+                <article class="carouselDesc">
+                    <h1 class="carouselTitle">Amazon Redshift</h1>
+                    <p class="carouselPara">Cloud Datawarehouse.</p>
+
+                    <button class="btn carouselBtn" onclick=""><a href="https://aws.amazon.com/redshift/">EXPLORE</a></button>
+                </article>
+            </div>
+
+
+
+        </div>
+        <div class="carouselIndicator">
+            <div class="indicator activeIndicator" onclick="slideCarousel(0)"></div>
+            <div class="indicator" onclick="slideCarousel(1)"></div>
+            <div class="indicator" onclick="slideCarousel(2)"></div>
+            <div class="indicator" onclick="slideCarousel(3)"></div>
+            <div class="indicator" onclick="slideCarousel(4)"></div>
+            <div class="indicator" onclick="slideCarousel(5)"></div>
+            <div class="indicator" onclick="slideCarousel(6)"></div>
+        </div>
+    </section>
+
+    <!-- Processes -->
+    <section class="gridSection">
+        <div class="sectionDesc processessDesc">
+            <h1 class="sectionHeader">Tools and Technologies</h1>
+            <p class="sectionPara">Data mining tools and technologies facilitate the extraction of valuable insights from complex datasets, enabling efficient analysis and decision-making. </p>
+            <div class="eachProcesses">
+                <img src="./img/handshake-icon-white-line.svg" alt="handshake">
+                <div class="eachprocessesPara">
+                    <h1 class="processTitle">Software</h1>
+                    <p>
+                        RapidMiner, WEKA, KNIME, SAS Enterprise Miner, Orange.</p>
+                </div>
+            </div>
+            <div class="eachProcesses">
+                <img src="./img/cart-icon-white-line.svg" alt="handshake">
+                <div class="eachprocessesPara">
+                    <h1 class="processTitle">Programming Languages</h1>
+                    <p>
+                        Python (with libraries like scikit-learn, TensorFlow), R. </p>
+                </div>
+            </div>
+            <div class="eachProcesses">
+                <img src="./img/cart-icon-white-line.svg" alt="handshake">
+                <div class="eachprocessesPara">
+                    <h1 class="processTitle">Big Data Platforms</h1>
+                    <p>
+                        Apache Hadoop, Apache Spark. </div>
+            </div>
+        </div>
+        <div class="sectionPic bouncepic processesPic" id="sectionPic">
+            <img src="./img/chain-process-img.png" alt="">
+        </div>
+    </section>
+
+    <!-- Markets -->
+    <section class="gridSection">
+        <div class="sectionDesc marketDesc">
+            <h1 class="sectionHeader">Needs</h1>
+            <p class="sectionPara"> To give you relief and lower your burden of managing and organising data. Here are some of the reasons why they are so highly regarded in the industry – </p>
+            <div class="eachMarket">
+                <img src="./img/buy-icon-color.svg" alt="handshake">
+                <div>
+                    <h1 class="marketTitle">Extract Insights</h1>
+                    <p class="darkPara">
+                        They help uncover hidden patterns and trends in large datasets that might not be immediately apparent. </p>
+                </div>
+            </div>
+            <div class="eachMarket">
+                <img src="./img/trading-icon-color.svg" alt="handshake">
+                <div>
+                    <h1 class="marketTitle">Enhance Efficiency</h1>
+                    <p class="darkPara">
+                        Automate data analysis processes, saving time and reducing manual effort.</p>
+                </div>
+            </div>
+            <div class="eachMarket">
+                <img src="./img/support-icon-color.svg" alt="handshake">
+                <div>
+                    <h1 class="marketTitle">SDetect Anomalies</h1>
+                    <p class="darkPara">
+                        Identify outliers or unusual patterns that may indicate fraud, errors, or significant changes. </p>
+                </div>
+            </div>
+            <div class="eachMarket">
+                <img src="./img/online-icon-color.svg" alt="handshake">
+                <div>
+                    <h1 class="marketTitle">Support Personalization</h1>
+                    <p class="darkPara">
+                        Tailor products, services, and marketing efforts to individual customer needs based on data-driven insights.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <div class="footerlinksContainer">
+        <div class="footerAboutus">
+            <img src="./img/data.png" alt="">
+            <p class="darkPara">Explore our blog for guides on top data mining tools like RapidMiner, WEKA, KNIME, and more. Discover features, use cases, and tips to maximize your data's potential.
+            </p>
+            <div class="footersociallinkContainer">
+                <img class="sociallink" src="./img/fabook-icon-white.svg" alt="">
+                <img class="sociallink" src="./img/twitter-icon-white.svg" alt="">
+                <img class="sociallink" src="./img/inkedin-icon-white.svg" alt="">
+                <img class="sociallink" src="./img/whatsapp-icon-white.svg" alt="">
+            </div>
+        </div>
+
+        <div class="footerlink">
+            <h1 class="linkTitle">Explore</h1>
+            <a href="#" class="eachLink">About us</a>
+            <a href="#" class="eachLink">FAQ</a>
+            <a href="#" class="eachLink">Blog</a>
+            <a href="#" class="eachLink">Contact</a>
+        </div>
+
+        <div class="footerlink">
+            <h1 class="linkTitle">Service</h1>
+            <a href="#" class="eachLink">Mining</a>
+            <a href="#" class="eachLink">Control Data</a>
+            <a href="#" class="eachLink">Design</a>
+            <a href="#" class="eachLink">Security</a>
+        </div>
+
+        <div class="footerlink">
+            <h1 class="linkTitle">Resource</h1>
+            <a href="#" class="eachLink">Style Guide</a>
+            <a href="#" class="eachLink">Change Log</a>
+            <a href="#" class="eachLink">License</a>
+        </div>
+    </div>
+
+    <div class="footerCopyright">
+        <p>&copy; 2024 design and developed by <a href="https://github.com/jayant-chand" class="developedBy">jayant-chand and team</a>.</p>
+    </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
